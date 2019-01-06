@@ -3,6 +3,7 @@
     <wb-module deploy-name="AutoLogin_Filter">
         <wb-resource deploy-path="/" source-path="/WebRoot"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/resources"/>
         <property name="context-root" value="/AutoLogin_Filter"/>
         <property name="java-output-path" value="/AutoLogin_Filter/WebRoot/WEB-INF/classes"/>
     </wb-module>

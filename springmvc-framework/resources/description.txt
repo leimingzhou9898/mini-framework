@@ -1,0 +1,2 @@
+1.访问路径
+http://localhost:8080/springmvc-framework/demo/query.json?name=eeeee
