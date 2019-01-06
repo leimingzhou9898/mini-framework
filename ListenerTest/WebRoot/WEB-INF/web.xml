@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <display-name></display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TestServlet</servlet-name>
+    <servlet-class>cn.itcast.listener01.TestServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TestServlet</servlet-name>
+    <url-pattern>/servlet/TestServlet</url-pattern>
+  </servlet-mapping>
+  <listener>
+    <listener-class>cn.itcast.listener01.ServletContextListener</listener-class>
+  </listener>
+  <listener>
+    <listener-class>cn.itcast.listener01.HttpSessionListener</listener-class>
+  </listener>
+  <listener>
+    <listener-class>cn.itcast.listener01.ServletRequestListener</listener-class>
+  </listener>
+  <listener>
+    <listener-class>cn.itcast.listener02.ServletContextAttributeChangeListener</listener-class>
+  </listener>
+  <session-config>
+    <session-timeout>10</session-timeout><!-- 单位：分钟 -->
+  </session-config>
+  <listener>
+    <listener-class>cn.itcast.listener02.HttpSessionAttributeListener</listener-class>
+  </listener>
+  <listener>
+    <listener-class>cn.itcast.listener02.RequestAttributeListener</listener-class>
+  </listener>
+</web-app>

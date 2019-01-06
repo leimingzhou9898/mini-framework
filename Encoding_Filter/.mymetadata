@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="Encoding_Filter"
+  id="myeclipse.1527941210805"
+  context-root="/Encoding_Filter"
+  j2ee-spec="5.0"
+  archive="Encoding_Filter.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

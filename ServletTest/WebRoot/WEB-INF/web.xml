@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  
+  <context-param>
+  	<description>应用的初始化参数</description>
+  	<param-name>contextint</param-name>
+  	<param-value>contextint_value</param-value>
+  </context-param>
+  
+  
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletOne</servlet-name>
+    <servlet-class>cn.itcast.servlet.ServletOne</servlet-class>
+    <init-param>
+    	<param-name>servletint</param-name>
+    	<param-value>servletint_value</param-value>
+    </init-param>
+    <!-- 加载顺序，0和1 是系统用的参数，越小加载越早，此处为空，默认第一次访问时创建此servlet-->
+    <!-- 访问时才创建的问题：1.第一个访问用户等待的时间长  2.创建此类时可能出现异常， 不能在应用启动时就抛出-->
+    <load-on-startup>2</load-on-startup>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>ServletOne</servlet-name>
+    <url-pattern>/servlet/ServletOne</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
