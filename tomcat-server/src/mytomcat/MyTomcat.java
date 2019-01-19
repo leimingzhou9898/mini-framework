@@ -51,7 +51,7 @@ public class MyTomcat {
 		try {
 			Class<MyServlet> myServletClass = (Class<MyServlet>)Class.forName(clazz);
 			MyServlet myServlet = myServletClass.newInstance();
-			myServlet.service(myRequest, myResponse);
+			myServlet.service(myRequest, myResponse);//子类继承父类的非抽象方法，故能执行此方法
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
