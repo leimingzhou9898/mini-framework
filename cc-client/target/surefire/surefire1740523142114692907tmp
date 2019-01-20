@@ -1,0 +1,37 @@
+#surefire
+#Sun Jan 20 00:08:03 CST 2019
+testClassesDirectory=I\:\\workspace\\mini-framework\\cc-client\\target\\test-classes
+classPathUrl.4=G\:\\repository\\bos-repository\\repository\\org\\slf4j\\slf4j-log4j12\\1.6.1\\slf4j-log4j12-1.6.1.jar
+classPathUrl.3=G\:\\repository\\bos-repository\\repository\\org\\slf4j\\slf4j-api\\1.6.1\\slf4j-api-1.6.1.jar
+classPathUrl.2=G\:\\repository\\bos-repository\\repository\\org\\apache\\zookeeper\\zookeeper\\3.4.8\\zookeeper-3.4.8.jar
+useManifestOnlyJar=true
+classPathUrl.1=I\:\\workspace\\mini-framework\\cc-client\\target\\classes
+reportsDirectory=I\:\\workspace\\mini-framework\\cc-client\\target\\surefire-reports
+classPathUrl.0=I\:\\workspace\\mini-framework\\cc-client\\target\\test-classes
+dirscanner.0=directoryScannerOptions
+providerConfiguration=org.apache.maven.surefire.junit.JUnit3Provider
+testSuiteDefinitionTestSourceDirectory=I\:\\workspace\\mini-framework\\cc-client\\src\\test\\java
+surefireClassPathUrl.1=G\:\\repository\\bos-repository\\repository\\org\\apache\\maven\\surefire\\surefire-api\\2.7.1\\surefire-api-2.7.1.jar
+surefireClassPathUrl.0=G\:\\repository\\bos-repository\\repository\\org\\apache\\maven\\surefire\\surefire-junit3\\2.7.1\\surefire-junit3-2.7.1.jar
+report.2=org.apache.maven.surefire.report.XMLReporter
+useSystemClassLoader=true
+report.1=org.apache.maven.surefire.report.BriefFileReporter
+report.0=org.apache.maven.surefire.report.ForkingConsoleReporter
+excludes0=**/*$*
+isTrimStackTrace=true
+dirscanner.0.params=I\:\\workspace\\mini-framework\\cc-client\\target\\test-classes|[**/Test*.java, **/*Test.java, **/*TestCase.java]|[**/*$*]
+includes2=**/*TestCase.java
+enableAssertions=true
+includes1=**/*Test.java
+failIfNoTests=false
+includes0=**/Test*.java
+classPathUrl.12=G\:\\repository\\bos-repository\\repository\\ss\\ss-server\\0.0.1-SNAPSHOT\\ss-server-0.0.1-SNAPSHOT.jar
+dirscanner.0.types=java.io.File|java.util.ArrayList|java.util.ArrayList
+classPathUrl.11=G\:\\repository\\bos-repository\\repository\\org\\apache\\curator\\curator-client\\2.5.0\\curator-client-2.5.0.jar
+classPathUrl.10=G\:\\repository\\bos-repository\\repository\\org\\apache\\curator\\curator-recipes\\2.5.0\\curator-recipes-2.5.0.jar
+classPathUrl.9=G\:\\repository\\bos-repository\\repository\\com\\google\\guava\\guava\\14.0.1\\guava-14.0.1.jar
+classPathUrl.8=G\:\\repository\\bos-repository\\repository\\org\\apache\\curator\\curator-framework\\2.4.2\\curator-framework-2.4.2.jar
+classPathUrl.7=G\:\\repository\\bos-repository\\repository\\io\\netty\\netty\\3.7.0.Final\\netty-3.7.0.Final.jar
+childDelegation=false
+classPathUrl.6=G\:\\repository\\bos-repository\\repository\\jline\\jline\\0.9.94\\jline-0.9.94.jar
+classPathUrl.5=G\:\\repository\\bos-repository\\repository\\log4j\\log4j\\1.2.16\\log4j-1.2.16.jar
